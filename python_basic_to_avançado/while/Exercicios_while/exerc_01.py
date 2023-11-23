@@ -1,7 +1,7 @@
 while True:
-    num_1 = input("Digite um número")
-    num_2 = input("Digite outro número")
-    operador = input( "Digite o operador ( + - / * ) ") 
+    num_1 = input("Digite um número: ")
+    num_2 = input("Digite outro número: ")
+    operador = input( "Digite o operador (+-/*) ") 
     
     num_validos = None
     number_1 = 0
@@ -18,8 +18,8 @@ while True:
         print(" Um ou ambos são inválidos. ")       
         continue
 
-    operadores_permitidos = ' +-/* ' 
-    if operadores_permitidos not in operador:
+    operadores_permitidos = '+-/*' 
+    if operador not in  operadores_permitidos:
         print(' Operador inválido')
         continue
     if len(operador) > 1:
@@ -36,4 +36,10 @@ while True:
     elif operador == '/':
         print(number_1 / number_2)
     
-    sair = input('Quer sair do programa? [s]im').lower().startswith('s') 
+    sair = input('Quer sair do programa? [s]im: ').lower().startswith('s') 
+    
+    if sair is True:
+        break
+
+
+    
