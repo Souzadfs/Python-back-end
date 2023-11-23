@@ -4,6 +4,8 @@ while True:
     operador = input( "Digite o operador ( + - / * ) ") 
     
     num_validos = None
+    number_1 = 0
+    number_2 = 0
 
     try:
         number_1 = float(num_1)
