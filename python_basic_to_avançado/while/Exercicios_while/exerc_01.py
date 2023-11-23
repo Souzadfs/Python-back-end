@@ -25,6 +25,15 @@ while True:
     if len(operador) > 1:
         print('Você precisa digitar apenas um operador')
         continue
-    
+    if operador == '*':
+        print(number_1 * number_2)
+    elif operador == '-':
+        print(number_1 - number_2)
+
+    elif operador == '+':
+        print(number_1 + number_2)
+
+    elif operador == '/':
+        print(number_1 / number_2)
     
     sair = input('Quer sair do programa? [s]im').lower().startswith('s') 
