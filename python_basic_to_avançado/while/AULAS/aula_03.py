@@ -1,5 +1,5 @@
 
-contador = 2
+#contador = 2
 
 while True:
     entrada = input('Digite o valor: ')
