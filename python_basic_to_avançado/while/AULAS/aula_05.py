@@ -12,10 +12,11 @@
 
 #     i += 1
 
-frase = 'Um texto é uma manifestação da linguagem. Pode ser definido como tudo aquilo que é dito por'\
-      'um emissor e interpretado por um receptor. Dessa forma, tudo que é interpretável é um texto. Outra forma de''\
-        conceituação é pensar que tudo aquilo que produz um sentido completo'\
-    'que seja uma mensagem compreensível, é um texto..'
+# frase = 'Um texto é uma manifestação da linguagem. Pode ser definido como tudo aquilo que é dito por'\
+#       'um emissor e interpretado por um receptor. Dessa forma, tudo que é interpretável é um texto. Outra forma de''\
+#         conceituação é pensar que tudo aquilo que produz um sentido completo'\
+#     'que seja uma mensagem compreensível, é um texto..'
+frase = 'aaaooo'
 
 i = 0
 qtd_apareceu_mais_vezes = 0
