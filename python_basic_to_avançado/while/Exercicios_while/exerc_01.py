@@ -26,15 +26,15 @@ while True:
         print('Você precisa digitar apenas um operador')
         continue
     if operador == '*':
-        print(f'{number_1} * {number_2}'number_1 * number_2)
+        print(f'{number_1} * {number_2}', number_1 * number_2)
     elif operador == '-':
-        print(f'{number_1} - {number_2}'number_1 - number_2)
+        print(f'{number_1} - {number_2}',number_1 - number_2)
 
     elif operador == '+':
-        print(f'{number_1} + {number_2}'number_1 + number_2)
+        print(f'{number_1} + {number_2}',number_1 + number_2)
 
     elif operador == '/':
-        print(f'{number_1} / {number_2}'number_1 / number_2)
+        print(f'{number_1} / {number_2}',number_1 / number_2)
     
     sair = input('Quer sair do programa? [s]im: ').lower().startswith('s') 
     
