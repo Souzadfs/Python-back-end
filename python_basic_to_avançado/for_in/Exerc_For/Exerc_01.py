@@ -1,7 +1,11 @@
+import os
+
 palavra_secr = 'perfume'
 letras_corretas = ''
 s = 0
 while True:
+    
+
     letra = input('Digite uma letra: ')
     s += 1
    
@@ -24,5 +28,6 @@ while True:
     if palavra_formada == palavra_secr:
         print(f'você Acertou !!!! ')   
         print(f'A palavra secreta é ({palavra_secr})')
-        print(f' Suas tentativas foram {s}x')    
+        print(f' Suas tentativas foram {s}x')
+        s = 10 
         break
