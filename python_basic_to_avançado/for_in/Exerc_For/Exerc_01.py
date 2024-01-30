@@ -6,7 +6,7 @@ s = 0
 while True:
     
 
-    letra = input('Digite uma letra: ')
+    letra = input('Digite uma : ')
     s += 1
    
     if len(letra) > 1:
