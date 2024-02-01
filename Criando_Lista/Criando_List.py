@@ -1,35 +1,3 @@
-# import os
-
-# lista = []
-# while True:
-#     print('Selicionar uma opção')
-#     opcao = input( '[i]nserir [a]apagar [l]istar: ' )
-
-#     if opcao == 'i':
-#         os.system ('clear')
-#         valor = input('valor: ')
-#         lista.append (valor)
-#     elif opcao == 'a':
-#         indice_str = input(
-#             'Escolha o indice para apagar: '
-#             )
-#         try:
-#             indice = int(indice_str)
-#             del lista[indice]
-#         except ValueError:
-#             print(' Digitar um numero int.')
-#         except Exception:
-#             print('Erro desconhecido')
-#         except IndexError:
-#             print('indice não existe.')     
-#     elif opcao == 'l':
-#         os.system('clear')
-
-        # if len(lista) == 0:
-        #     print('nothing to list')
-
-            
-
 import os
 
 lista = []
