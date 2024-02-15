@@ -16,4 +16,4 @@ if __name__ == '__main__':
 
     float_division = a / b
     print("O resultado da divisão inteira é", integer_division)
-    print("O resultado da divisão de ponto flutuante é", float_division)
+    print(f"O resultado da divisão de ponto flutuante é, {float_division :.1f}")
