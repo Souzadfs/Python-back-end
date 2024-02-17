@@ -9,8 +9,8 @@
 
 if __name__ == '__main__':
     
-    a = int(input())
-    b = int(input())
+    a = int(input('Digite o primeiro numero:' ))
+    b = int(input('Digite o segundo numero: '))
     
     integer_division = a // b
 
